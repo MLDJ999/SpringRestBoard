@@ -22,8 +22,8 @@ restBoard.txt
 	
 	글쓰기 : /boards + 데이터 (POST)
 	글조회 : /boards/1000 (GET)
-	글수정 : /boards/ (UPDATE)
-	글삭제 : /boards/ (DELETE)
+	글수정 : /boards/1000 + 데이터 (UPDATE)
+	글삭제 : /boards/1000 (DELETE)
 	
 	
 	
