@@ -5,6 +5,12 @@
   
   <mapper namespace="com.itwillbs.mapper.BoardMapper">
   
+  <!-- 글쓰기 -->
+  <insert id = "insertBoard">
+  	insert into tbl_board(title, content, writer)
+  	values (#{title}, #{content}, #{writer})
+  </insert>
+  
     
   
   
