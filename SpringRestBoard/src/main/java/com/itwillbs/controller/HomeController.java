@@ -36,4 +36,14 @@ public class HomeController {
 		return "home";
 	}
 	
+	// http://localhost:8088/boardMain
+	@RequestMapping(value = "/boardMain",method = RequestMethod.GET)
+	public void board() {
+		logger.info(" board() 실행 ");
+		
+	}
+	
+	
+	
+	
 }
